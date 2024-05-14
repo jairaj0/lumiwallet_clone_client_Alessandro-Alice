@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.recent__bar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: transparent;
+}
+
+/* Track */
+.recent__bar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.recent__bar::-webkit-scrollbar-thumb {
+  background: #f5f5f4;
+  border-radius: 100px;
+}
+
+/* Handle on hover */
+.recent__bar::-webkit-scrollbar-thumb:hover {
+  background: #f5f5f4;
+}
